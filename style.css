@@ -1,0 +1,32 @@
+.wraper{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.header{
+    background: grey;
+    height: 60px;
+}
+.container{
+    background:red;
+    overflow: hidden;
+}
+.menu{
+    background: blue;
+    float: left;
+    width: 20%;
+    height: 40px;
+}
+.content{
+    background: violet;
+    float: left;
+    width: 80%;
+}
+.footer{
+    background: darkgreen;
+    clear: both;
+    height: 30px;
+
+}
+
+
