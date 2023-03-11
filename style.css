@@ -1,32 +1,35 @@
-.wraper{
+.wraper {
     max-width: 1000px;
     margin: 0 auto;
-    
+
 }
-.header{
+
+.header {
     background: grey;
     height: 60px;
 }
-.container{
-    background:red;
-    overflow: hidden;
+
+.container {
+    background: red;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row-reverse;
 }
-.menu{
+
+.menu {
     background: blue;
-    float: left;
     width: 20%;
-    height: 40px;
 }
-.content{
+
+.content {
     background: violet;
-    float: left;
+    text-align: center;
     width: 80%;
 }
-.footer{
+
+.footer {
     background: darkgreen;
-    clear: both;
     height: 30px;
 
 }
-
-
